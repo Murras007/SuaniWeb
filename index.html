@@ -40,94 +40,278 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Neo Solutions</h1>
-      </a>
+    <a href="index.html" class="logo d-flex align-items-center">
+       <h1 class="sitename">NEO<span class="neo-color">SOLUTIONS</span></h1>
+    </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about-modern">Sobre</a></li>
+        <li><a href="#services-detailed">Serviços</a></li>
+        <li><a href="#sectors">Sectores</a></li>
+        <li><a href="#partners">Parceiros</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
 
+    <a class="btn-getstarted" href="#contact">Solicitar Cotação</a>
 
-    </div>
-  </header>
+  </div>
+</header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+   <section id="hero" class="hero section dark-background" style="padding: 160px 0 100px 0; background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url('assets/img/Title-Picture.jpeg') center/cover no-repeat;">
 
-      <img src="assets/img/119611984_s-min.jpg" alt="" data-aos="fade-in">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-10">
+       <!--
+        <div data-aos="fade-down" data-aos-delay="100" class="mb-4">
+          <span class="badge-neo">
+            ✨ PROCUREMENT 4.0 & GESTÃO INTELIGENTE
+          </span>
+        </div>
+--> 
+        <h2 class="hero-title" data-aos="fade-down" data-aos-delay="200">
+          Turbine a sua Operação com <span class="neo-color">Sourcing Global</span>
+        </h2>
+        
+        <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+          Apoiamos empresas a conquistar eficiência máxima. Da gestão de frotas ao fornecimento internacional, entregamos transparência e resultados.
+        </p>
 
-      <div class="container d-flex flex-column align-items-center">
-        <h2 data-aos="fade-up" data-aos-delay="100">Soluções Globais de Procurement para Empresas e Instituições.</h2>
-        <p style="text-align: center;" data-aos="fade-up" data-aos-delay="200">Atuamos como parceiros estratégicos de empresas privadas e instituições, realizando compras internacionais de
-bens, equipamentos e soluções em grande escala, com eficiência, segurança e inteligência de mercado.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up" data-aos-delay="400">
+          <a href="#contact" class="btn btn-primary-neo">
+            Solicitar Cotação
+          </a>
+          <a href="#contact" class="btn btn-outline-neo">
+            📅 Agendar Reunião
+          </a>
+          <a href="#contact" class="btn btn-neo-link">
+            Enviar Pedido
+          </a>
+        </div>
 
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Hero Section -->
+  <div class="hero-waves">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.1)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
+  </div>
 
+</section>
+    <!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+<!-- Serviços Principais -->
+  <section id="services-overview" class="services-overview section" >
 
-      <div class="container">
+  <div class="container section-title" data-aos="fade-up">
+    <span class="services-subtitle">O que fazemos</span>
+    <h2>🛠️ Serviços Principais</h2>
+  </div>
 
-        <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3>SOBRE NÓS</h3>
-            <img src="assets/img/NEO SOLUTIONS_NEGATIVE VERSION.jpg" class="img-fluid rounded-4 mb-4" alt="">
-            <p>Somos uma empresa especializada em procurement global e sourcing internacional, atuando como parceira
-estratégica de empresas privadas e instituições que necessitam adquirir bens, equipamentos e soluções em
-grande escala, com foco em eficiência, conformidade e otimização de custos.</p>
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="neo-service-item">
+          <div class="icon-box">
+            <i class="bi bi-rocket-takeoff-fill" style="font-size: 2rem;"></i>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-            <div class="content ps-0 ps-lg-5">
-              <!--<p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>-->
-              <ul>
-                <li><i class="bi bi-award"></i> <span>Missão: fornecer soluções eficientes e diversificadas p empresas,
-garantindo qualidade, agilidade e confiabilidade no fornecimento de
-produtos e serviços, contribuindo para o crescimento sustentável dos
-nossos clientes.</span></li>
-                <li><i class="bi bi-heart"></i> <span> Valores: Transparência, Compromisso com a qualidade, Inovação, Agilidade,
-Eficiência e sustentabilidade.</span></li>
-                <li><i class="bi bi-eye"></i> <span>Visão: ser referência no setor de fornecimento e prestação de serviços para
-empresas, destacando-se pela inovação, qualidade e compromisso com a
-satisfação dos clientes.</span></li>
-              </ul>
-              <!--
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
-            -->
-              <div class="position-relative mt-4">
-                <img src="assets/img/NEO SOLUTIONS_ORIGINAL.jpg" class="img-fluid rounded-4" alt="">
-                <!--
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
--->
+          <h3>Procurement</h3>
+          <p>Gestão completa de aquisições e negociação inteligente com foco em resultados.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="neo-service-item">
+          <div class="icon-box" style="background: #fff3e0; color: #ff9800;">
+            <i class="bi bi-lightning-charge-fill"></i>
+          </div>
+          <h3>Sourcing</h3>
+          <p>Identificação global de fornecedores e equipamentos com rapidez e precisão.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="neo-service-item">
+          <div class="icon-box" style="background: #e8f5e9; color: #4caf50;">
+            <i class="bi bi-cpu-fill"></i>
+          </div>
+          <h3>Frotas</h3>
+          <p>Venda e gestão operacional de viaturas corporativas com tecnologia.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="neo-service-item">
+          <div class="icon" style="background: #fce4ec; color: #e91e63; border-radius: 15px; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+            <i class="bi bi-geometry" style="font-size: 2rem;"></i>
+          </div>
+          <h3>Logística</h3>
+          <p>Coordenação estratégica da sua cadeia de abastecimento empresarial.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-5 pt-5">
+    <div class="row gy-5 align-items-center">
+      
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="sectors-container">
+          <h3 class="mb-4">🏢 Sectores que Atendemos</h3>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Empresas Privadas</span>
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Instituições Públicas</span>
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Sector Petrolífero</span>
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Construção</span>
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Sector Financeiro</span>
+            <span class="badge rounded-pill bg-light text-dark p-3" style="font-size: 0.9rem; border: 1px solid #ddd;">Logística</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 class="mb-4">💼 Porquê a NeoSolutions?</h3>
+        <ul class="list-unstyled neo-list">
+          <li class="mb-3 d-flex align-items-center"><i class="bi bi-stars me-3" style="color: #ffbc00; font-size: 1.5rem;"></i> Experiência Premium em Procurement</li>
+          <li class="mb-3 d-flex align-items-center"><i class="bi bi-globe-americas me-3" style="color: #007bff; font-size: 1.5rem;"></i> Rede Global de Fornecedores</li>
+          <li class="mb-3 d-flex align-items-center"><i class="bi bi-shield-check me-3" style="color: #20c997; font-size: 1.5rem;"></i> Transparência Total & Ética</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-5 pt-4" data-aos="zoom-in">
+    <div class="text-white text-center" style="background: linear-gradient(135deg, #273d4e 0%, #c2a157 100%); padding: 50px; border-radius: 40px; box-shadow: 0 20px 40px rgba(255, 74, 23, 0.3);">
+      <h3 style="font-weight: 700;">Pronto para elevar o seu negócio?</h3>
+      <p class="mb-4">Agende uma conversa rápida e descubra como podemos optimizar as suas compras.</p>
+      <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a href="#contact" class="btn btn-light" style="border-radius: 50px; padding: 12px 35px; font-weight: 700; color: #ff4a17;">👉 Solicitar Proposta</a>
+        <a href="#contact" class="btn" style="border-radius: 50px; padding: 12px 35px; font-weight: 700; color: white; border: 2px solid white;">📅 Agendar Reunião</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /Serviços Principais -->
+ 
+    <!-- About Section -->
+     <section id="about-modern" class="about section" style="background: #ffffff; padding: 100px 0;">
+
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="about-content">
+          <span style="background: #fff0eb; color: #ff4a17; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; text-transform: uppercase;">🚀 Quem Somos</span>
+          <h2 class="mt-3" style="font-weight: 800; font-size: 2.5rem; color: #2d3436; line-height: 1.2;">
+            Sua parceira estratégica em <span style="color: #ff4a17;">Angola</span>.
+          </h2>
+          <p class="mt-4" style="font-size: 1.1rem; color: #636e72; line-height: 1.8;">
+            A <strong>NeoSolutions</strong> é uma empresa angolana dedicada a fornecer soluções corporativas integradas que facilitam a gestão operacional de empresas e instituições públicas.
+          </p>
+          <p style="font-size: 1.1rem; color: #636e72; line-height: 1.8;">
+            Trabalhamos em parceria para simplificar processos de aquisição, organizar operações e maximizar a eficiência da sua cadeia de abastecimento.
+          </p>
+          
+          <div class="row mt-5 gy-4">
+            <div class="col-md-6">
+              <div style="background: #f8f9fa; padding: 25px; border-radius: 20px; border-left: 5px solid #ff4a17;">
+                <h5 style="font-weight: 700; color: #2d3436;"><i class="bi bi-bullseye me-2"></i> Missão</h5>
+                <p style="font-size: 0.95rem; margin-bottom: 0;">Fornecer soluções estratégicas que aumentem a competitividade das organizações.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div style="background: #f8f9fa; padding: 25px; border-radius: 20px; border-left: 5px solid #00d2ff;">
+                <h5 style="font-weight: 700; color: #2d3436;"><i class="bi bi-eye me-2"></i> Visão</h5>
+                <p style="font-size: 0.95rem; margin-bottom: 0;">Ser a referência em Angola como parceiro confiável em sourcing internacional.</p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
-    </section><!-- /About Section -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+  <div style="background: #fdfdfd; padding: 40px; border-radius: 40px; border: 1px solid #eee; box-shadow: 0 15px 40px rgba(0,0,0,0.03); position: relative; overflow: hidden;">
+    
+    <div style="position: absolute; top: -20px; right: -20px; width: 120px; height: 120px; background: rgba(255, 74, 23, 0.05); border-radius: 50%;"></div>
+    
+    <h3 class="mb-4" style="font-weight: 800; color: #2d3436; position: relative;">Nossos Valores ✨</h3>
+    
+    <div class="row g-3">
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #fff0eb; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-shield-shaded" style="color: #ff4a17; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Transparência</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #e0f7fa; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-award" style="color: #00bcd4; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Profissionalismo</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #f0f4ff; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-lightning-auto" style="color: #3f51b5; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Eficiência</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #f3e5f5; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-lock" style="color: #9c27b0; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Confidencialidade</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #e8f5e9; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-hand-thumbs-up" style="color: #4caf50; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Compromisso</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="background: #ffffff; border: 1px solid #f0f0f0; padding: 25px 15px; border-radius: 20px; text-align: center; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.02);" class="value-card">
+          <div style="background: #fffde7; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto;">
+            <i class="bi bi-gem" style="color: #fbc02d; font-size: 1.3rem;"></i>
+          </div>
+          <p style="color: #2d3436; font-weight: 700; margin-bottom: 0; font-size: 0.9rem;">Excelência</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+    <!-- /About Section -->
 
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
@@ -183,334 +367,390 @@ satisfação dos clientes.</span></li>
     </section><!-- /Stats Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services-detailed" class="services section" style="background: #f4f7f6; padding: 100px 0;">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Serviços</h2>
-        <p>serviço de rent a car<br></p>
-      </div><!-- End Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span style="color: #ff4a17; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Soluções Ponta a Ponta</span>
+    <h2>🛠️ Nossos Serviços Especializados</h2>
+    <p>Oferecemos suporte completo para a eficiência do seu negócio</p>
+  </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container">
+    <div class="row gy-4">
 
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/premium_photo-1661932036915-4fd90bec6e8a.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-boxes"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Serviços de Logística</h3>
-                </a>
-
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/119611984_s-min.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-truck"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Transporte E Gestão De Frotas</h3>
-                </a>
-
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/busy-service-area-cars-being-serviced-showcasing-vibrant-workshop-environment-blue-car-stands-out-against-reflective-floor-361679851.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-receipt"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Comercialização De Viatura</h3>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div style="background: #fff; padding: 40px; border-radius: 30px; height: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eef2f1;">
+          <div style="background: #ff4a17; width: 60px; height: 60px; border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 25px;">
+            <i class="bi bi-cart-check-fill" style="color: #fff; font-size: 1.8rem;"></i>
+          </div>
+          <h3 style="font-weight: 800; color: #2d3436; margin-bottom: 15px;">Procurement & Aquisições</h3>
+          <p style="color: #636e72;">Gestão completa dos processos de compras empresariais desde a solicitação até à entrega final.</p>
+          <ul class="list-unstyled mt-3">
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #ff4a17;"></i> Gestão de pedidos</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #ff4a17;"></i> Negociação com fornecedores</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #ff4a17;"></i> Controlo de custos</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #ff4a17;"></i> Relatórios operacionais</li>
+          </ul>
         </div>
-
       </div>
 
-    </section><!-- /Services Section -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div style="background: #fff; padding: 40px; border-radius: 30px; height: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eef2f1;">
+          <div style="background: #00d2ff; width: 60px; height: 60px; border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 25px;">
+            <i class="bi bi-globe-americas" style="color: #fff; font-size: 1.8rem;"></i>
+          </div>
+          <h3 style="font-weight: 800; color: #2d3436; margin-bottom: 15px;">Sourcing Internacional</h3>
+          <p style="color: #636e72;">Identificação de fornecedores internacionais e acesso a produtos com qualidade global.</p>
+          <ul class="list-unstyled mt-3">
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #00d2ff;"></i> Pesquisa de fornecedores</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #00d2ff;"></i> Aquisição internacional</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #00d2ff;"></i> Coordenação logística</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #00d2ff;"></i> Consolidação de cargas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div style="background: #fff; padding: 40px; border-radius: 30px; height: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eef2f1;">
+          <div style="background: #20c997; width: 60px; height: 60px; border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 25px;">
+            <i class="bi bi-truck-flatbed" style="color: #fff; font-size: 1.8rem;"></i>
+          </div>
+          <h3 style="font-weight: 800; color: #2d3436; margin-bottom: 15px;">Gestão de Frotas & Viaturas</h3>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #20c997;"></i> Venda de viaturas corporativas</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #20c997;"></i> Planeamento e manutenção</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #20c997;"></i> Gestão operacional de frotas</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #20c997;"></i> Relatórios de utilização</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div style="background: #fff; padding: 40px; border-radius: 30px; height: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eef2f1;">
+          <div style="background: #6c5ce7; width: 60px; height: 60px; border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 25px;">
+            <i class="bi bi-boxes" style="color: #fff; font-size: 1.8rem;"></i>
+          </div>
+          <h3 style="font-weight: 800; color: #2d3436; margin-bottom: 15px;">Logística & Fornecimento</h3>
+          <p style="color: #636e72;">Coordenação estratégica da cadeia de abastecimento e entrega de materiais.</p>
+          <ul class="list-unstyled mt-3">
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #6c5ce7;"></i> Fornecimento de bens empresariais</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #6c5ce7;"></i> Planeamento de entregas</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #6c5ce7;"></i> Apoio à cadeia de abastecimento</li>
+            <li class="mb-2"><i class="bi bi-check2-circle me-2" style="color: #6c5ce7;"></i> Acompanhamento de encomendas</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- /Services Section -->
 
     
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="sectors" class="services section" style="background: #ffffff; padding: 100px 0;">
 
-      <div class="container">
+  <div class="container section-title" data-aos="fade-up">
+    <span style="color: #ff4a17; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Presença Multissetorial</span>
+    <h2>🏭 Sectores que Atendemos</h2>
+    <p>Soluções versáteis adaptadas às exigências de cada mercado</p>
+  </div>
 
-        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-box-seam"></i>
-              <h4 class="d-none d-lg-block">Serviços de Logístic</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link " data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-truck"></i>
-              <h4 class="d-none d-lg-block">Transporte e Gestão de Frotas</h4>
-            </a>
-          </li>
+  <div class="container">
+    <div class="row gy-4">
 
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-cash-coin"></i>
-              <h4 class="d-none d-lg-block">Comercialização de Viatura</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-bucket"></i>
-              <h4 class="d-none d-lg-block">Catering e Limpeza Geral</h4>
-            </a>
-          </li>
-
-        </ul><!-- End Tab Nav -->
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="tab-pane fade active show" id="features-tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>TRANSPORTE E GESTÃO DE FROTAS</h3>
-
-                <ul>
-                  <li><i class="bi bi-check2-all"></i>
-                    <spab>Planeamento e execução de operações logísticas eficientes</spab>
-                  </li>
-                  <li><i class="bi bi-check2-all"></i>
-                    <spab>Supervisão completa de frotas e camiões</spab>
-                  </li>
-                  <li><i class="bi bi-check2-all"></i> <span>Montitoramento e controle para aumentar a eficiência operacional</span>.</li>
-                  <li><i class="bi bi-check2-all"></i> <span>soluções para redução de custos com manutenção e consumo de combustivel.</span></li>
-                </ul>
-
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/istockphoto-940295448-612x612.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>SERVIÇOS DE LOGÍSTICA</h3>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Planeamento e execução de operações logísticas eficientes.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Otimização de rotas e Transporte para redução custos.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Gestão de armazens e distribuição de mercadorias.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/istockphoto-1500466535-612x612.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>COMERCIALIZAÇÃO DE VIATURAS</h3>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Venda de viaturas comerciais e corporativas.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Aluguer de veiculos para empresas e profissionais.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Consultoria para aquisição de frotas empresariais.</span></li>
-                </ul>
-
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/istockphoto-1373210791-612x612.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>CATERING E LIMPEZA GERAL</h3>
-              <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Serviços de catering para empresas, eventos corporativos e indústrias.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Alimentação personalizada de acordo com as necessidades dos clientes.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Serviços de limpeza profissional para escritórios, fábricas e especos comerciais.</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/woman-spraying-and-wiping-glass-free-photo.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#ff4a17'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🏢</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Empresas Privadas</h4>
         </div>
-
       </div>
 
-    </section><!-- /Features Section -->
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#00d2ff'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🏛️</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Instituições Públicas</h4>
+        </div>
+      </div>
 
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#ffbc00'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">⚓</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Sector Petrolífero</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#2d3436'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🏭</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Indústria</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#e91e63'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🏗️</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Construção</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#6c5ce7'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">📦</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Logística</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#00b894'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🏦</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Sector Financeiro</h4>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="800">
+        <div style="text-align: center; padding: 30px; border-radius: 25px; background: #fff; border: 1px solid #f0f0f0; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(0,0,0,0.02);" onmouseover="this.style.borderColor='#ff7675'; this.style.transform='translateY(-10px)';" onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)';">
+          <div style="font-size: 2.5rem; margin-bottom: 15px;">🛒</div>
+          <h4 style="font-weight: 700; font-size: 1.1rem; color: #2d3436;">Comércio & Distribuição</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- /Features Section -->
+<!-- Type of Serviices Section -->
+
+          <section id="partners" class="section" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 100px 0; overflow: hidden; position: relative;">
+
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.05; pointer-events: none;">
+    <i class="bi bi-globe" style="font-size: 30rem; position: absolute; right: -50px; bottom: -50px;"></i>
+  </div>
+
+  <div class="container" position: relative; z-index: 1;>
+    <div class="row align-items-center">
+      
+      <div class="col-lg-6" data-aos="fade-right">
+        <span style="background: #fff; color: #ff4a17; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+          🌍 CONEXÕES GLOBAIS
+        </span>
+        <h2 class="mt-4" style="font-weight: 800; font-size: 2.5rem; color: #2d3436; line-height: 1.2;">
+          Rede de Fornecedores <br><span style="color: #ff4a17;">Sem Fronteiras</span>.
+        </h2>
+        <p class="mt-4" style="font-size: 1.15rem; color: #636e72; line-height: 1.8;">
+          Trabalhamos com fornecedores e parceiros internacionais para garantir acesso rápido a produtos, equipamentos e soluções empresariais com padrões elevados de qualidade e competitividade.
+        </p>
+        
+        <div class="d-flex align-items-center mt-5">
+          <div style="background: #ff4a17; width: 50px; height: 2px; margin-right: 15px;"></div>
+          <span style="font-weight: 700; color: #2d3436; text-transform: uppercase; letter-spacing: 1px;">Qualidade Garantida</span>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-4" style="background: #fff; border-radius: 40px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); border: 1px solid rgba(255,255,255,0.8);">
+          <div class="row g-4 text-center">
+            
+            <div class="col-6">
+              <div style="padding: 20px;">
+                <i class="bi bi-airplane-engines" style="font-size: 2.5rem; color: #ff4a17;"></i>
+                <h5 class="mt-3" style="font-weight: 700; font-size: 1rem;">Logística Ágil</h5>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div style="padding: 20px;">
+                <i class="bi bi-shield-check" style="font-size: 2.5rem; color: #00d2ff;"></i>
+                <h5 class="mt-3" style="font-weight: 700; font-size: 1rem;">Padrão Europeu</h5>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div style="padding: 20px;">
+                <i class="bi bi-currency-exchange" style="font-size: 2.5rem; color: #20c997;"></i>
+                <h5 class="mt-3" style="font-weight: 700; font-size: 1rem;">Preços Competitivos</h5>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div style="padding: 20px;">
+                <i class="bi bi-patch-check" style="font-size: 2.5rem; color: #6c5ce7;"></i>
+                <h5 class="mt-3" style="font-weight: 700; font-size: 1rem;">Marcas Líderes</h5>
+              </div>
+            </div>
 
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </div>
+  </div>
+</section>
+    <!-- /Type of Serviices Section -->
 
    
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+<section id="contact" class="contact section" style="background: #ffffff; padding: 100px 0;">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>FALE CONNOSCO</p>
-      </div><!-- End Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span style="color: #ff4a17; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Fale Connosco</span>
+    <h2>Contacto</h2>
+    <p>Estamos prontos para elevar a eficiência do seu negócio</p>
+  </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
+    <div class="row gy-4">
+
+      <div class="col-lg-5">
         <div class="row gy-4">
-          <div class="col-lg-6 ">
-            <div class="row gy-4">
-
-              <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Endereço</h3>
-                  <p> projecto nova vida, rua 48, edificio 48, apt 15</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Ligue para nós</h3>
-                  <p>+244 940 079 749 / +244 951 000 343</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@neosolutions.co.ao</p>
-                </div>
-              </div><!-- End Info Item -->
-
+          
+          <div class="col-md-12">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" 
+                 style="background: #f8f9fa; padding: 30px; border-radius: 25px; border: 1px solid #eee; transition: 0.3s;"
+                 data-aos="fade-up" data-aos-delay="200">
+              <div style="background: #fff0eb; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                <i class="bi bi-geo-alt" style="color: #ff4a17; font-size: 1.5rem;"></i>
+              </div>
+              <h3 style="font-size: 1.2rem; font-weight: 700; color: #2d3436;">Endereço</h3>
+              <p style="color: #636e72; text-align: center; margin-bottom: 0;">Projecto Nova Vida, Rua 48, Edifício 48, Apt 15 - Luanda</p>
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <form action="https://themewagon.github.io/Dewi/forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Seu Nome" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Seu Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Mensagem" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">A Enviar</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Mensagem Enviado Com Sucesso</div>
-
-                  <button type="submit">Eviar</button>
-                </div>
-
+          <div class="col-md-12">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" 
+                 style="background: #f8f9fa; padding: 30px; border-radius: 25px; border: 1px solid #eee; transition: 0.3s;"
+                 data-aos="fade-up" data-aos-delay="300">
+              <div style="background: #e0f7fa; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                <i class="bi bi-telephone" style="color: #00d2ff; font-size: 1.5rem;"></i>
               </div>
-            </form>
-          </div><!-- End Contact Form -->
+              <h3 style="font-size: 1.2rem; font-weight: 700; color: #2d3436;">Ligue para nós</h3>
+              <p style="color: #636e72; text-align: center; margin-bottom: 0;">+244 940 079 749 <br> +244 951 000 343</p>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" 
+                 style="background: #f8f9fa; padding: 30px; border-radius: 25px; border: 1px solid #eee; transition: 0.3s;"
+                 data-aos="fade-up" data-aos-delay="400">
+              <div style="background: #f0f4ff; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                <i class="bi bi-envelope" style="color: #3f51b5; font-size: 1.5rem;"></i>
+              </div>
+              <h3 style="font-size: 1.2rem; font-weight: 700; color: #2d3436;">Email Us</h3>
+              <p style="color: #636e72; text-align: center; margin-bottom: 0;">info@neosolutions.co.ao</p>
+            </div>
+          </div>
 
         </div>
-
       </div>
 
-    </section><!-- /Contact Section -->
+      <div class="col-lg-7">
+        <div style="background: #fff; padding: 40px; border-radius: 35px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); border: 1px solid #f0f0f0;">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Seu Nome" required style="border-radius: 15px; padding: 12px; border: 1px solid #eee;">
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Seu Email" required style="border-radius: 15px; padding: 12px; border: 1px solid #eee;">
+              </div>
+
+              <div class="col-md-12">
+                <select name="subject" class="form-select" required style="border-radius: 15px; padding: 12px; border: 1px solid #eee; font-weight: 500;">
+                  <option value="" disabled selected>O que deseja solicitar?</option>
+                  <option value="Solicitar Cotação">👉 Solicitar Cotação</option>
+                  <option value="Agendar Reunião">👉 Agendar Reunião</option>
+                  <option value="Enviar Pedido">👉 Enviar Pedido de Compra</option>
+                </select>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="5" placeholder="Sua Mensagem" required style="border-radius: 15px; padding: 12px; border: 1px solid #eee;"></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">A Enviar</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua mensagem foi enviada com sucesso!</div>
+
+                <button type="submit" style="background: #ff4a17; color: white; border: none; padding: 15px 45px; border-radius: 50px; font-weight: 700; width: 100%; transition: 0.3s; box-shadow: 0 10px 20px rgba(255, 74, 23, 0.2);">
+                  Enviar Agora
+                </button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+    <!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background" style="background: linear-gradient(180deg, #1a1d20 0%, #000000 100%); padding-top: 60px; border-top: 1px solid rgba(255,255,255,0.05);">
 
-    <div class="container footer-top">
-  <div class="row gy-2 justify-content-between">
-    <!-- Left Column -->
-    <div class="col-lg-4 col-md-4 footer-about">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <span class="sitename">Neo Solutions</span>
-      </a>
-      <div class="footer-contact pt-3">
-        <p>projecto nova vida, rua 48, edificio 48, apt 15</p>
-        <p>Luanda, Angola</p>
-        <p class="mt-3"><strong>Phone:</strong> <span>+244 940 079 749 / +244 951 000 343</span></p>
-        <p><strong>Email:</strong> <span>info@neosolutions.co.ao</span></p>
+  <div class="container footer-top">
+    <div class="row gy-5 justify-content-between">
+      
+      <div class="col-lg-5 col-md-6 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span class="sitename" style="font-weight: 900; font-size: 1.8rem; letter-spacing: -1px;">NEO<span style="color: #ff4a17;">SOLUTIONS</span></span>
+        </a>
+        <div class="footer-contact pt-4">
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.95rem; line-height: 1.6;">
+            <i class="bi bi-geo-alt-fill" style="color: #ff4a17; margin-right: 8px;"></i> Projecto Nova Vida, Rua 48, Edifício 48, Apt 15<br>
+            <span style="margin-left: 25px;">Luanda, Angola</span>
+          </p>
+          <p class="mt-3" style="color: rgba(255,255,255,0.7);">
+            <i class="bi bi-telephone-fill" style="color: #00d2ff; margin-right: 8px;"></i> 
+            <strong>Phone:</strong> <span style="margin-left: 5px;">+244 940 079 749 / 951 000 343</span>
+          </p>
+          <p style="color: rgba(255,255,255,0.7);">
+            <i class="bi bi-envelope-at-fill" style="color: #20c997; margin-right: 8px;"></i> 
+            <strong>Email:</strong> <span style="margin-left: 5px;">info@neosolutions.co.ao</span>
+          </p>
+        </div>
+        
+        <div class="social-links d-flex mt-4">
+          <a href="#" style="background: rgba(255,255,255,0.05); border-radius: 12px; margin-right: 10px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" style="background: rgba(255,255,255,0.05); border-radius: 12px; margin-right: 10px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/neosolutions_ao?igsh=MTlkN3V3aTJza3Iwbw==" style="background: rgba(255,255,255,0.05); border-radius: 12px; margin-right: 10px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="bi bi-instagram" style="color: #E1306C;"></i></a>
+          <a href="#" style="background: rgba(255,255,255,0.05); border-radius: 12px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="bi bi-linkedin" style="color: #0077b5;"></i></a>
+        </div>
       </div>
-      <div class="social-links d-flex mt-4">
-        <a href="#"><i class="bi bi-twitter-x"></i></a>
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/neosolutions_ao?igsh=MTlkN3V3aTJza3Iwbw=="><i class="bi bi-instagram"></i></a>
-        <a href="#"><i class="bi bi-linkedin"></i></a>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4 style="font-weight: 700; font-size: 1.1rem; margin-bottom: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">Links Úteis</h4>
+        <ul class="list-unstyled">
+          <li style="margin-bottom: 12px;"><i class="bi bi-chevron-right" style="color: #ff4a17; font-size: 0.8rem;"></i> <a href="#hero" style="color: rgba(255,255,255,0.6); text-decoration: none; transition: 0.3s;">Home</a></li>
+          <li style="margin-bottom: 12px;"><i class="bi bi-chevron-right" style="color: #ff4a17; font-size: 0.8rem;"></i> <a href="#about-modern" style="color: rgba(255,255,255,0.6); text-decoration: none; transition: 0.3s;">Sobre Nós</a></li>
+          <li style="margin-bottom: 12px;"><i class="bi bi-chevron-right" style="color: #ff4a17; font-size: 0.8rem;"></i> <a href="#services-detailed" style="color: rgba(255,255,255,0.6); text-decoration: none; transition: 0.3s;">Serviços</a></li>
+          <li style="margin-bottom: 12px;"><i class="bi bi-chevron-right" style="color: #ff4a17; font-size: 0.8rem;"></i> <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none; transition: 0.3s;">Termos de Serviço</a></li>
+          <li style="margin-bottom: 12px;"><i class="bi bi-chevron-right" style="color: #ff4a17; font-size: 0.8rem;"></i> <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: none; transition: 0.3s;">Política de Privacidade</a></li>
+        </ul>
       </div>
-    </div>
 
-    <!-- Right Column -->
-    <div class="col-lg-4 col-md-4 footer-links text-end">
-
-      <ul class="list-unstyled">
-        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-        <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-        <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-        <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-      </ul>
     </div>
   </div>
-</div>
 
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Real Solutions</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://www.instagram.com/realsolution_?utm_source=qr&igsh=MXdja25zcDlsaDM0eQ==">Real Solutions</a>
-      </div>
+  <div class="container copyright text-center mt-5" style="padding: 30px 0; border-top: 1px solid rgba(255,255,255,0.05);">
+    <p style="font-size: 0.9rem; color: rgba(255,255,255,0.5);">© <span>Copyright</span> <strong class="px-1 sitename">Real Solutions</strong>. All Rights Reserved</p>
+    <div class="credits" style="font-size: 0.8rem; color: rgba(255,255,255,0.3); margin-top: 5px;">
+      Designed by <a href="https://www.instagram.com/realsolution_?utm_source=qr&igsh=MXdja25zcDlsaDM0eQ==" style="color: #ff4a17; text-decoration: none; font-weight: 600;">Real Solutions</a>
     </div>
+  </div>
 
-  </footer>
-
+</footer>
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
