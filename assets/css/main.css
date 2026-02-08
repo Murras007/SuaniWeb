@@ -306,11 +306,11 @@
 }
 .neo-service-item:hover {
   transform: translateY(-10px);
-  border-bottom: 4px solid var(--neo-gold);
+  border-bottom: 4px solid (var--neo-brown);
 }
 .neo-service-item .icon-box {
   background: var(--neo-light-orange); /* Ou um tom creme suave */
-  color: var(--neo-gold);
+  color: (var--neo-brown);
   border-radius: 15px;
   width: 60px;
   height: 60px;
@@ -321,7 +321,7 @@
   font-size: 2rem;
 }
 .neo-service-item .icon-box i {
-  color: var(--neo-gold);
+  color: (var--neo-brown);
   background: #e0f7fa;
   color: #00bcd4; 
   border-radius: 15px; 
@@ -349,13 +349,13 @@
   transition: 0.3s;
 }
 .sector-badge:hover {
-  border-color: var(--neo-gold) !important;
-  color: var(--neo-gold) !important;
+  border-color: (var--neo-brown) !important;
+  color: (var--neo-brown) !important;
 }
 
 /* Lista de Porquês */
 .neo-list i {
-  color: var(--neo-gold);
+  color: (var--neo-brown);
   font-size: 1.5rem;
   margin-right: 15px;
 }
@@ -371,7 +371,7 @@
 }
 
 .btn-cta-gold {
-  background: var(--neo-gold);
+  background: (var--neo-brown);
   color: white;
   border-radius: 50px;
   padding: 12px 35px;
@@ -397,6 +397,159 @@
 /* --- Seção Sobre e Valores (Limpeza de Cores) --- */
 .about-content h2 span {
   color: var(--neo-brown);
+}
+.about-modern {
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.about-badge {
+  background: rgba(194, 161, 87, 0.1);
+  color: #c2a157;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.about-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #273d4e;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+.about-title span {
+  color: #c2a157;
+}
+
+.about-p {
+  font-size: 1.1rem;
+  color: #636e72;
+  line-height: 1.8;
+  margin-top: 1.5rem;
+}
+/* Missão e Visão */
+.mission-vision-box {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 20px;
+  border-left: 5px solid #c2a157;
+  height: 100%;
+}
+
+.mission-vision-box h5 {
+  font-weight: 700;
+  color: #273d4e;
+}
+.mission-vision-box p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+/* Container de Valores */
+.values-container {
+  background: #fdfdfd;
+  padding: 40px;
+  border-radius: 40px;
+  border: 1px solid #eee;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.values-decoration {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 120px;
+  height: 120px;
+  background: rgba(194, 161, 87, 0.05);
+  border-radius: 50%;
+}
+
+.value-card {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  padding: 25px 15px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+  height: 100%;
+}
+
+.value-card:hover {
+  border-color: #c2a157;
+  transform: translateY(-5px);
+}
+
+.value-icon-wrapper {
+  background: rgba(194, 161, 87, 0.1);
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+}
+
+.value-icon-wrapper i {
+  color: #c2a157;
+  font-size: 1.3rem;
+}
+
+.value-text {
+  color: #273d4e;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+/* --- Stats Section Modernized --- */
+.stats-section {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Fundo cinza muito leve para contraste */
+}
+.neo-stats-item {
+  background: #ffffff;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.neo-stats-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(194, 161, 87, 0.1);
+}
+.neo-stats-item i {
+  font-size: 44px;
+  color: var(--neo-blue-dark); /* Azul Corporativo */
+  line-height: 0;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.neo-stats-item .purecounter {
+  color: (var--neo-brown); /* Dourado nos números */
+  font-size: 36px;
+  display: block;
+  font-weight: 700;
+  font-family: var(--heading-font); /* Montserrat */
+}
+.neo-stats-item p {
+  padding: 0;
+  margin: 0;
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 600;
+  color: #636e72;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .value-card {
@@ -465,21 +618,352 @@
   border-color: var(--neo-brown);
   transform: translateY(-10px);
 }
+/* --- Sectors Grid Section --- */
+.sectors-grid {
+  background: #ffffff;
+  padding: 100px 0;
+}
 
-/* --- Contact & Footer --- */
-.contact-form-container {
-  background: var(--neo-white);
+.sector-card {
+  text-align: center;
+  padding: 30px;
+  border-radius: 25px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.02);
+  height: 100%;
+}
+/* --- Services Detailed Section --- */
+.services-detailed {
+  background: #f4f7f6;
+  padding: 100px 0;
+}
+
+.detailed-service-item {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 30px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: 1px solid #eef2f1;
+  transition: all 0.3s ease;
+}
+
+.detailed-service-item:hover {
+  transform: translateY(-10px);
+  border-color: (var--neo-brown);
+}
+
+.detailed-service-item .icon-wrapper {
+  background: (var--neo-brown); /* Agora todos são Dourados */
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.detailed-service-item .icon-wrapper i {
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.detailed-service-item h3 {
+  font-family: var(--heading-font);
+  font-weight: 800;
+  color: var(--neo-blue-dark);
+  margin-bottom: 15px;
+}
+
+.detailed-service-item p {
+  color: #636e72;
+  margin-bottom: 20px;
+}
+
+.detailed-service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.detailed-service-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.detailed-service-list li i {
+  color: var(--neo-brown);
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* --- Partners & Global Connections --- */
+.partners-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 100px 0;
+  overflow: hidden;
+  position: relative;
+}
+.partners-section .bg-globe-decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  pointer-events: none;
+}
+.partners-section .bg-globe-decoration i {
+  font-size: 30rem;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
+
+.partners-badge {
+  background: #ffffff;
+  color: var(--neo-brown);
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  display: inline-block;
+}
+.partners-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: var(--neo-blue-dark);
+  line-height: 1.2;
+  margin-top: 1.5rem;
+}
+
+.partners-title span {
+  color: var(--neo-brown);
+}
+/* Card de Ícones à Direita */
+.partners-grid-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 40px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.05);
+  border: 1px solid rgba(255,255,255,0.8);
+}
+
+.partner-feature-item {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.partner-feature-item:hover {
+  transform: scale(1.05);
+}
+
+.partner-feature-item i {
+  font-size: 2.5rem;
+  color: var(--neo-brown); /* Unificado para Dourado */
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.partner-feature-item h5 {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--neo-blue-dark);
+}
+
+.gold-line-decoration {
+  background: var(--neo-brown);
+  width: 50px;
+  height: 2px;
+  margin-right: 15px;
+}
+
+/* Efeito de destaque ao passar o rato */
+.sector-card:hover {
+  border-color: var(--neo-brown); /* Dourado */
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(194, 161, 87, 0.1);
+}
+
+.sector-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.sector-card h4 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--neo-blue-dark); /* Azul Corporativo */
+  margin-bottom: 0;
+}
+
+/* --- Contact Section Modernized --- */
+.contact-section {
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.contact-info-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 25px;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.contact-info-card:hover {
+  border-color: var(--neo-brown);
+  transform: translateY(-5px);
+}
+
+.contact-icon-box {
+  background: rgba(194, 161, 87, 0.1); /* Fundo dourado suave */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon-box i {
+  color: var(--neo-brown); /* Ícones dourados */
+  font-size: 1.5rem;
+}
+
+.contact-info-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--neo-blue-dark);
+}
+
+/* Formulário */
+.contact-form-wrapper {
+  background: #fff;
   padding: 40px;
   border-radius: 35px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.05);
   border: 1px solid #f0f0f0;
 }
 
-.contact-form-container input, .contact-form-container select, .contact-form-container textarea {
-  border-radius: 15px !important;
-  border: 1px solid #eee !important;
+.contact-form-wrapper .form-control,
+.contact-form-wrapper .form-select {
+  border-radius: 15px;
+  padding: 12px;
+  border: 1px solid #eee;
+  font-family: var(--default-font);
 }
 
-.footer {
-  background: linear-gradient(180deg, #1a1d20 0%, #000000 100%) !important;
+.contact-form-wrapper .form-control:focus {
+  border-color: var(--neo-brown);
+  box-shadow: 0 0 0 0.2rem rgba(194, 161, 87, 0.1);
+}
+
+.btn-contact-submit {
+  background: var(--Neo-color);
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 50px;
+  font-weight: 700;
+  width: 100%;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(194, 161, 87, 0.2);
+}
+
+.btn-contact-submit:hover {
+  background: #a88a4a;
+  transform: translateY(-2px);
+  color: white;
+}
+
+/* --- Footer Custom Modernization --- */
+.main-footer {
+  background: linear-gradient(180deg, #1a1d20 0%, #000000 100%);
+  padding-top: 60px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  color: #fff;
+}
+
+.footer-logo img {
+  max-height: 80px; /* Ajuste conforme o tamanho do seu ficheiro */
+  width: auto;
+}
+
+.footer-contact i {
+  color: var(--neo-gold); /* Todos os ícones agora são dourados */
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.footer-contact p {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-links h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul li i {
+  color: var(--neo-gold);
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: rgba(255,255,255,0.6);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  color: var(--neo-gold);
+}
+
+.social-links a {
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  border-radius: 12px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: var(--neo-gold);
+  color: var(--neo-blue-dark);
+}
+
+.footer-bottom {
+  padding: 30px 0;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.5);
 }
