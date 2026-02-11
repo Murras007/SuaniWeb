@@ -21,9 +21,33 @@
   --nav-mobile-background-color: #ffffff;
   --neo-glass: rgba(255, 255, 255, 0.1);
 }
+/* --- Bloqueio de Scroll Horizontal e Ajuste Mobile --- */
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; /* Impede o scroll para os lados */
+  width: 100%;
+  position: relative;
+}
+/* Garante que imagens e vídeos nunca saiam do ecrã */
+  img, video, canvas {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Ajuste de títulos muito grandes que "empurram" o site */
+  h1, h2 {
+    word-wrap: break-word !important;
+    font-size: calc(1.5rem + 1vw) !important; /* Diminui títulos no mobile */
+  }
 /* --- Ajustes Mobile para NeoSolutions --- */
 @media (max-width: 1199px) {
   /* Força o menu a ocupar espaço quando o corpo tem a classe ativa */
+  .container, .container-fluid {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    max-width: 100% !important;
+    overflow: hidden;
+  }
     body.mobile-nav-active .navmenu {
         position: fixed !important;
         inset: 0 !important;
@@ -37,7 +61,7 @@
     top: 60px !important; /* Cola exatamente abaixo da barra azul/preta */
     left: 0 !important;
     right: 0 !important;
-    width: 100vw !important;
+    width: 100%!important;
     background: #1a1d20 !important; /* Cor idêntica à barra do laptop */
     border-radius: 0 !important;    /* Remove cantos arredondados */
     padding: 10px 0 !important;
@@ -80,7 +104,7 @@
   .mobile-nav-active .mobile-nav-toggle {
     color: var(--neo-brown) !important;
     position: fixed !important;
-    top: 20px !important;
+    top: 18px !important;
     right: 15px !important;
   }
 }
